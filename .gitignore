@@ -1,0 +1,71 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+backend/venv/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# JavaScript and frontend build output
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Local IDE and OS settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+*.swp
+*.swo
+
+# Logs, temporary files, screenshots, and test output
+*.log
+*.tmp
+tmp/
+temp/
+screenshots/
+test-results/
+playwright-report/
+junit.xml
+# Additional local credentials and machine-specific files
+.secrets/
+secrets/
+credentials/
+credentials.json
+*_credentials.json
+service-account*.json
+application_default_credentials.json
+local.settings.json
+.npmrc
+.pypirc
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# Additional test and editor output
+.tox/
+coverage/

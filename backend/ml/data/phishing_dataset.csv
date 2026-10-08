@@ -1,0 +1,86 @@
+text,label
+URGENT: Your PayPal account access has been restricted due to suspicious activity. Click here to verify your identity and password immediately.,phishing
+"Dear customer, your Chase Online Banking profile requires immediate re-activation. Confirm your credentials and security question to prevent permanent suspension.",phishing
+"Security Alert: We detected an unauthorized login to your Microsoft 365 account from Moscow, Russia. Verify your password and 2FA code right now: http://login-ms-verify.net",phishing
+Your Netflix membership has been placed on hold due to a billing failure. Update your payment method within 24 hours to continue streaming: http://netflix-billing-update.xyz,phishing
+Final Notice: Your Apple ID has been locked for security reasons. Enter your password and billing credit card number to restore access.,phishing
+"IRS Tax Refund Notification: You have a pending tax refund of $1,420.50. Submit your SSN and bank account details here to claim your direct deposit.",phishing
+"Wells Fargo Alert: A wire transfer of $4,850.00 is pending approval. If you did not authorize this transaction, click here immediately to cancel.",phishing
+FedEx Delivery Notification: Your package could not be delivered due to an incorrect address. Pay the $2.99 re-delivery fee at http://fedx-package-tracking.xyz,phishing
+Internal IT Helpdesk: Mandatory security certificate upgrade required for all staff before 5:00 PM today. Enter your corporate email password at the portal link.,phishing
+DHL Express: We were unable to deliver your parcel on September 17. Confirm your address and pay customs clearance charges at http://dhl-parcel-customs.net,phishing
+HR Department: Open enrollment benefits update. Review your 401(k) allocations and submit your employee credentials to verify your election.,phishing
+Bank of America: Unusual debit card activity detected at Target Store. Verify your PIN and card security code immediately to unblock your card.,phishing
+"Congratulations! You have won a $1,000 Walmart Gift Card. Complete this 2-minute survey and enter your credit card to cover shipping fees.",phishing
+Amazon Security: Your account is scheduled for deletion due to inactivity and unconfirmed details. Log in to http://amazon-auth-resolver.xyz to keep your account.,phishing
+CEO Urgent Request: I am in an executive meeting and need you to purchase 10 Apple Gift Cards ($100 each) for client bonuses. Email me the codes ASAP.,phishing
+DocuSign: Important NDA agreement requires your electronic signature. Log in with your corporate email password to review and sign document.,phishing
+Google Workspace: Your storage quota is 99% full. Incoming messages will be bounced. Click here to upgrade your mailbox quota immediately.,phishing
+USPS Alert: Address verification required for parcel delivery. Provide credit card details to re-route your delivery.,phishing
+Dropbox Security: Someone shared a confidential financial statement with you. Sign in with your email provider credentials to view the document.,phishing
+"Coinbase Alert: A withdrawal of 1.45 BTC has been initiated. If this was not you, click here immediately to freeze your account.",phishing
+LinkedIn Notification: You have 8 unread direct messages and a job offer from an executive recruiter. Verify your login password to view.,phishing
+Instagram Copyright Infringement: Your account will be disabled within 24 hours for copyright violation. Appeal here: http://instagram-copyright-appeal.xyz,phishing
+Meta Ads Manager: Your payment method was declined. Update billing information to prevent active advertising campaign termination.,phishing
+Citibank Notification: New e-Statement is available. Log in at http://citi-secure-auth.net to review your statement balance and verify transactions.,phishing
+Urgent Security Patch: Critical zero-day vulnerability discovered in your workstation software. Download and execute the hotfix patch immediately.,phishing
+Payroll Advisory: There was an error processing your direct deposit for this pay period. Confirm your social security number and routing number to receive payment.,phishing
+Zoom Meeting: Missed meeting recording from your department director is available. Log in with your office credentials to watch recording.,phishing
+"Apple Support: Your iPhone was located in London, UK. Enter your Apple ID and password to see live location on Find My map.",phishing
+Spotify Premium: Your subscription payment failed. Enter new credit card details within 12 hours to avoid losing your playlists.,phishing
+"COVID-19 Relief Fund: You are eligible for an economic stimulus payment of $2,500. Enter your personal and banking information to claim.",phishing
+URGENT WARNING: Suspicious activity detected on your bank card. Immediate verification required at http://secure-banking-portal.xyz/verify,phishing
+Your Apple ID has been suspended due to 5 unauthorized login attempts from Beijing. Click here to confirm your password and recovery key.,phishing
+PayPal Fraud Alert: We have blocked an unauthorized payment of $899.99 to Best Buy. Click http://paypa1-fraud-check.com to cancel payment.,phishing
+Microsoft 365 Password Expiration: Your email password expires today. Retain your current password by verifying at the Microsoft Web Portal link.,phishing
+HR Notice: Your annual performance bonus has been approved. Sign in with your company credentials to view your compensation statement.,phishing
+Critical IT Alert: Multi-Factor Authentication token desynchronization detected on your corporate VPN account. Re-enter your OTP and master credentials immediately.,phishing
+"Binance Security Notification: New device login from Taipei detected. If you did not approve this session, cancel it instantly at http://binance-auth-freeze.net",phishing
+Adobe Creative Cloud: Payment declined for renewal of All Apps plan. Update payment method right away to prevent cloud file deletion.,phishing
+ATTENTION: Unpaid toll invoice of $12.45 recorded on Turnpike Express. Pay within 24 hours to avoid a $100 penalty fine: http://e-zpass-violations.info,phishing
+"CFO Urgent Wire: I need an emergency wire transfer of $34,200 to vendor Alpha Holdings before 2 PM today. Keep this confidential until announced.",phishing
+Outlook Mailbox Quota Exceeded: You have reached 98% of your 50GB storage limit. Upgrade your mailbox quota here to avoid email termination.,phishing
+UPS Parcel Tracking: Delivery address incomplete. Update street address and pay handling fee at http://ups-parcel-customs-clearance.org,phishing
+Meta Workplace Alert: Your employee account has been flagged for non-compliance. Validate your domain password within 6 hours to retain access.,phishing
+Steam Guard Alert: Unauthorized trade request pending from IP 185.220.101.5. Click here to reject trade and lock your inventory.,phishing
+"Chase Fraud Prevention: A transaction for $1,249.00 at Apple Store Online was flagged. Reply NO to block or verify account at http://chase-auth-alert.xyz",phishing
+"Hi team, please find the quarterly engineering progress notes attached. Our all-hands sync is scheduled for Friday at 3 PM.",legitimate
+"Your weekly Jira sprint summary is ready. 14 tickets closed, 3 in progress. Review the sprint board on our internal Jira instance.",legitimate
+Meeting invite: Product design review for the new analytics dashboard. Tuesday from 10:00 AM to 11:00 AM in Conference Room B.,legitimate
+GitHub: @sarah-dev approved your pull request #142 (fix: resolve race condition in worker threads). Merging into main branch.,legitimate
+Your receipt for AWS Cloud Services for August 2026 is attached. Total billed: $142.50. You can view your invoice in the AWS Console.,legitimate
+Reminder: All staff company town hall is starting in 15 minutes. Join via the regular Google Meet link on the corporate calendar.,legitimate
+"Hi Alex, thanks for sending over the architecture diagrams. I reviewed the caching layer and left a few comments on the doc.",legitimate
+Your order #78923 from Amazon has shipped. Estimated delivery is Thursday by 8:00 PM. Track package on your Amazon account page.,legitimate
+Slack: New message from Jordan in #engineering-backend: 'Deployed the latest API release to staging environment for testing.',legitimate
+"Security Notice: Your password was successfully updated from your registered device. If you made this change, no action is needed.",legitimate
+Please submit your monthly expense receipts in Concur by Friday for the upcoming payroll reimbursement cycle.,legitimate
+The release notes for Docker Desktop version 4.28 are now available. Learn more about new features and performance enhancements.,legitimate
+"Hi David, could you please review the attached draft of the customer case study when you have a moment today? Thanks!",legitimate
+Your flight confirmation for Delta Airlines DL402 from JFK to SFO is confirmed. E-ticket and boarding pass available in Delta app.,legitimate
+Automated build passed: Build #512 for main branch completed successfully in 3m 45s with 0 test failures.,legitimate
+New comment on Figma design 'Mobile Checkout Flow v2': 'Love the simplified address selector component!',legitimate
+Thank you for contacting customer support. Your ticket #45129 has been resolved. Please take our 1-question feedback rating.,legitimate
+Here is the agenda for tomorrow's security architecture sync: 1. Threat model review 2. Incident Center demo 3. Action items.,legitimate
+Your monthly Spotify playlist recap is here. Listen to your top 20 tracks from August in your mobile app.,legitimate
+Reminder: The annual open source conference CFP deadline is next Monday. Submit your talk proposal before midnight.,legitimate
+"Hi team, the office internet maintenance scheduled for Saturday night has been completed successfully with no downtime.",legitimate
+Your Uber ride receipt: $24.80 for trip from Downtown to Airport. Thanks for riding with Uber.,legitimate
+"Morning team, the production database migration completed smoothly at 2 AM. All health checks and latency monitors look great.",legitimate
+Please welcome Michael Chen who is joining our DevOps team today as Senior Infrastructure Engineer!,legitimate
+Your reservation at The Grill Restaurant for 4 guests on Saturday at 7:30 PM is confirmed. View details on OpenTable.,legitimate
+Python Software Foundation: Python 3.13 is now available with improved performance and new typing features.,legitimate
+"Hi team, attached is the updated sprint retrospective document with our key learnings and velocity charts.",legitimate
+Your Google Cloud billing statement for project 'prod-analytics-cluster' is available for download in the Cloud Console.,legitimate
+HR announcement: The company office will be closed on Monday in observance of the public holiday.,legitimate
+Code review request: PR #89 'refactor: streamline incident ingestion pipeline' is ready for your team review.,legitimate
+"Hello Samantha, the slides for our client pitch on Wednesday are in the shared Drive folder. Let me know if you want any edits.",legitimate
+Your Zoom recurring meeting 'Weekly Security Standup' is starting in 10 minutes.,legitimate
+GitLab: Pipeline #1092 succeeded for branch feature/threat-correlation in 4m 12s.,legitimate
+Office facilities update: The 4th floor coffee machine has been serviced and is now operational.,legitimate
+Your monthly New York Times digital subscription receipt: $4.00 charged to Visa ending in 4122.,legitimate
+"Hi team, please review the revised documentation for our REST API endpoints on our internal Confluence space.",legitimate
+Your appointment with Dr. Henderson has been confirmed for Thursday at 2:00 PM. No preparation required.,legitimate
+Linear: Issue ENG-402 'Implement impossible travel detection' was assigned to you by Tech Lead.,legitimate
+"PostgreSQL 17 release notes: Enhanced query planner optimization, improved partition pruning, and logical replication failover.",legitimate
+Your DoorDash order from Tokyo Ramen has been picked up and is arriving in approximately 15 minutes.,legitimate

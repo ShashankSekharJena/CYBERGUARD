@@ -1,0 +1,262 @@
+﻿@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --bg-primary: #f3eee5;
+  --bg-surface: #eae3d8;
+  --bg-elevated: #fffdf8;
+  --border: #d5c9ba;
+  --border-strong: #c7b9a8;
+  --text-primary: #241b16;
+  --text-secondary: #66584f;
+  --text-muted: #7a6b60;
+  --text-placeholder: #8c7d72;
+  --accent: #e43d12;
+  --accent-hover: #b9320d;
+  --accent-dark: #b9320d;
+  --accent-soft: #f2d0c3;
+  --accent-border: rgba(228, 61, 18, 0.35);
+  --accent-hover-soft: rgba(228, 61, 18, 0.08);
+  --severity-medium: #c98232;
+  --severity-safe: #5f6b5a;
+  --color-white: #fffdf8;
+  --color-black: #241b16;
+}
+
+/* Keep the existing utility names while grading them through one warm palette. */
+@theme {
+  --color-white: #fffdf8;
+  --color-black: #241b16;
+
+  --color-slate-50: #fffdf8;
+  --color-slate-100: #eae3d8;
+  --color-slate-200: #d5c9ba;
+  --color-slate-300: #d5c9ba;
+  --color-slate-400: #7a6b60;
+  --color-slate-500: #66584f;
+  --color-slate-600: #66584f;
+  --color-slate-700: #241b16;
+  --color-slate-800: #241b16;
+  --color-slate-900: #241b16;
+  --color-slate-950: #f3eee5;
+
+  --color-blue-50: #f2d0c3;
+  --color-blue-100: #f2d0c3;
+  --color-blue-200: rgba(228, 61, 18, 0.35);
+  --color-blue-300: #d77d60;
+  --color-blue-400: #7a6b60;
+  --color-blue-500: #e43d12;
+  --color-blue-600: #e43d12;
+  --color-blue-700: #b9320d;
+  --color-blue-800: #8e2a12;
+  --color-blue-900: #572419;
+
+  --color-indigo-50: #f2d0c3;
+  --color-indigo-100: #f2d0c3;
+  --color-indigo-300: #d77d60;
+  --color-indigo-400: #b9320d;
+  --color-indigo-500: #b9320d;
+  --color-indigo-600: #e43d12;
+  --color-indigo-800: #d5c9ba;
+  --color-indigo-950: #eae3d8;
+
+  --color-red-50: #f2d0c3;
+  --color-red-100: #f2d0c3;
+  --color-red-200: rgba(228, 61, 18, 0.35);
+  --color-red-300: #d77d60;
+  --color-red-400: #e43d12;
+  --color-red-500: #e43d12;
+  --color-red-600: #e43d12;
+  --color-red-700: #e43d12;
+  --color-red-800: #8e2a12;
+
+  --color-orange-100: #f2d0c3;
+  --color-orange-300: #dda08a;
+  --color-orange-400: #b9320d;
+  --color-orange-500: #b9320d;
+  --color-orange-600: #9f2d10;
+  --color-orange-700: #b9320d;
+  --color-orange-800: #7e2a17;
+
+  --color-amber-100: #f2e2ca;
+  --color-amber-300: #dfbb83;
+  --color-amber-400: #c98232;
+  --color-amber-500: #c98232;
+  --color-amber-600: #9b6429;
+  --color-amber-700: #7b5125;
+
+  --color-emerald-100: #e5e8df;
+  --color-emerald-300: #b0b9a4;
+  --color-emerald-400: #5f6b5a;
+  --color-emerald-500: #5f6b5a;
+  --color-emerald-600: #5f6b5a;
+  --color-emerald-700: #46513e;
+
+  --color-rose-400: #b9320d;
+  --color-rose-500: #e43d12;
+}
+
+@layer base {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  code, pre, .font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  input, textarea, select {
+    color: var(--text-primary);
+    background-color: var(--color-white);
+    border-color: var(--border);
+  }
+
+  input::placeholder, textarea::placeholder,
+  [class~="placeholder-slate-400"]::placeholder,
+  [class~="placeholder-slate-500"]::placeholder {
+    color: var(--text-placeholder) !important;
+    opacity: 1;
+  }
+
+  :focus-visible {
+    outline-color: var(--accent);
+  }
+}
+
+/* Assign existing surfaces by role without changing component markup. */
+.bg-white,
+.bg-slate-100,
+.bg-slate-700,
+.bg-slate-700\/30,
+.bg-slate-800,
+.bg-slate-800\/40,
+.bg-slate-800\/50,
+.bg-slate-900,
+.bg-slate-900\/90,
+.bg-indigo-950,
+[class~="bg-[#0e1422]"] { background-color: var(--bg-surface); }
+
+.bg-slate-50,
+.bg-slate-950 { background-color: var(--bg-elevated); }
+.bg-slate-200 { background-color: #e2d9ce; }
+
+aside[class~="bg-white"] { background-color: var(--bg-surface); }
+[id^="nav-btn-"]:not([class~="bg-blue-50"]) svg { color: var(--text-secondary); }
+header[class~="bg-white"] { background-color: var(--bg-primary); }
+
+/* Foreground utilities follow text role rather than their former dark theme values. */
+.text-white { color: var(--text-primary); }
+.text-white.font-mono { color: var(--accent); }
+.text-slate-100,
+.text-slate-200,
+.text-slate-700,
+.text-slate-800,
+.text-slate-900 { color: var(--text-primary); }
+.text-slate-300,
+.text-slate-500,
+.text-slate-600 { color: var(--text-secondary); }
+.text-slate-400 { color: var(--text-muted); }
+
+/* Keep legacy status-label hues dark enough for warm light surfaces. */
+.text-blue-300,
+.text-indigo-300,
+.text-red-300 { color: var(--accent-hover); }
+.text-amber-300 { color: #7b5125; }
+.text-emerald-300 { color: #356b4a; }
+/* Muted status colors keep the risk hierarchy legible on cream surfaces. */
+.bg-blue-100.text-blue-700 { background-color: #eae3d8; color: var(--text-muted); }
+.bg-emerald-100.text-emerald-700 { background-color: #e5e8df; color: #356b4a; }
+
+/* Shared warm borders, including the existing table and panel separators. */
+.border-slate-200,
+.border-slate-300,
+.border-slate-600,
+.border-slate-600\/30,
+.border-slate-700,
+.border-slate-700\/60,
+.border-slate-700\/80,
+.border-slate-800,
+.border-slate-800\/60,
+.border-slate-800\/80,
+.divide-slate-200 > :not(:last-child),
+.divide-slate-800 > :not(:last-child) { border-color: var(--border); }
+
+.border-blue-200,
+.border-blue-300,
+.border-blue-400\/30,
+.border-blue-400\/40,
+.border-blue-500,
+.border-blue-500\/30,
+.border-blue-500\/50,
+.border-red-200,
+.border-red-300,
+.border-red-500\/30,
+.border-red-500\/40,
+.border-red-500\/50 { border-color: var(--accent-border); }
+
+/* The existing active navigation becomes a clear orange selection on warm cream. */
+[id^="nav-btn-"][class~="bg-blue-50"] {
+  position: relative;
+  color: var(--color-white);
+  background-color: var(--accent);
+}
+[id^="nav-btn-"][class~="bg-blue-50"] svg { color: var(--color-white); }
+[id^="nav-btn-"][class~="bg-blue-50"]::before {
+  position: absolute;
+  inset-block: 20%;
+  left: 0;
+  width: 2px;
+  border-radius: 2px;
+  background: var(--accent-hover);
+  content: "";
+}
+
+/* Brand buttons retain white text; secondary controls remain warm neutral. */
+[class~="bg-blue-600"][class~="text-white"],
+[class~="bg-indigo-600"][class~="text-white"],
+[class~="bg-red-500"][class~="text-white"],
+[class~="bg-orange-500"][class~="text-white"] { color: var(--color-white); }
+
+[class~="hover:bg-slate-50"]:hover,
+[class~="hover:bg-slate-100"]:hover { background-color: #f2d0c3; }
+[class~="hover:bg-blue-700"]:hover,
+[class~="hover:bg-indigo-700"]:hover,
+[class~="hover:bg-red-600"]:hover { background-color: var(--accent-hover); }
+
+/* Stronger shell and form edges keep warm surfaces clearly separated. */
+header.border-b,
+aside.border-r { border-color: var(--border-strong); }
+input, textarea, select { border-width: 1px; }
+input:focus, textarea:focus, select:focus { border-color: var(--accent); }
+button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* A quiet lift for the existing card surfaces. */
+div.bg-white.border-slate-200,
+form.bg-slate-900.border-slate-800 { box-shadow: 0 1px 2px rgba(36, 27, 22, 0.05); }
+
+/* URL Analyzer empty state. */
+.url-analyzer-view > div:first-child > div:first-child p { color: var(--text-secondary); }
+.url-analyzer-view [class~="min-h-[380px]"] > div:first-child {
+  color: var(--accent);
+  background-color: var(--accent-soft);
+}
+.url-analyzer-view [class~="min-h-[380px]"] > div:first-child svg { color: var(--accent); }
+.url-analyzer-view [class~="min-h-[380px]"] p { color: var(--text-secondary); }
+/* Warm focus ring and subdued scrollbar. */
+[class~="focus:ring-blue-500\/20"]:focus,
+[class~="focus:ring-blue-500"]:focus { --tw-ring-color: rgba(228, 61, 18, 0.2); }
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: #d5c9ba; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #b8a998; }
+
+::selection { color: var(--text-primary); background: var(--accent-soft); }
+
+
+
+
+

@@ -1,0 +1,185 @@
+{
+  "model_name": "TF-IDF + Logistic Regression Phishing Classifier",
+  "algorithm": "LogisticRegression(C=1.0, solver='liblinear')",
+  "feature_extractor": "TfidfVectorizer(ngram_range=(1,2), max_features=2500)",
+  "training_timestamp": "2026-10-08T18:17:00.426935+00:00",
+  "dataset_statistics": {
+    "total_samples": 85,
+    "phishing_samples": 45,
+    "legitimate_samples": 40,
+    "train_samples": 63,
+    "test_samples": 22,
+    "test_size_ratio": 0.25,
+    "random_state": 42
+  },
+  "evaluation_metrics": {
+    "accuracy": 0.9545,
+    "precision": 0.9231,
+    "recall": 1.0,
+    "f1_score": 0.96,
+    "confusion_matrix": {
+      "true_negative": 9,
+      "false_positive": 1,
+      "false_negative": 0,
+      "true_positive": 12
+    },
+    "classification_report": {
+      "0": {
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1-score": 0.9473684210526315,
+        "support": 10.0
+      },
+      "1": {
+        "precision": 0.9230769230769231,
+        "recall": 1.0,
+        "f1-score": 0.96,
+        "support": 12.0
+      },
+      "accuracy": 0.9545454545454546,
+      "macro avg": {
+        "precision": 0.9615384615384616,
+        "recall": 0.95,
+        "f1-score": 0.9536842105263157,
+        "support": 22.0
+      },
+      "weighted avg": {
+        "precision": 0.958041958041958,
+        "recall": 0.9545454545454546,
+        "f1-score": 0.9542583732057416,
+        "support": 22.0
+      }
+    }
+  },
+  "top_features": {
+    "phishing_indicators": [
+      {
+        "feature": "to",
+        "weight": 0.4807
+      },
+      {
+        "feature": "your",
+        "weight": 0.3772
+      },
+      {
+        "feature": "http",
+        "weight": 0.3257
+      },
+      {
+        "feature": "verify",
+        "weight": 0.3115
+      },
+      {
+        "feature": "card",
+        "weight": 0.3082
+      },
+      {
+        "feature": "password",
+        "weight": 0.3031
+      },
+      {
+        "feature": "payment",
+        "weight": 0.2934
+      },
+      {
+        "feature": "an",
+        "weight": 0.2724
+      },
+      {
+        "feature": "here to",
+        "weight": 0.251
+      },
+      {
+        "feature": "at http",
+        "weight": 0.2508
+      },
+      {
+        "feature": "credentials",
+        "weight": 0.2504
+      },
+      {
+        "feature": "account",
+        "weight": 0.2461
+      },
+      {
+        "feature": "email",
+        "weight": 0.2348
+      },
+      {
+        "feature": "enter",
+        "weight": 0.2307
+      },
+      {
+        "feature": "here",
+        "weight": 0.2226
+      }
+    ],
+    "legitimate_indicators": [
+      {
+        "feature": "the",
+        "weight": -0.5388
+      },
+      {
+        "feature": "is",
+        "weight": -0.4683
+      },
+      {
+        "feature": "for",
+        "weight": -0.3998
+      },
+      {
+        "feature": "our",
+        "weight": -0.3163
+      },
+      {
+        "feature": "hi",
+        "weight": -0.2525
+      },
+      {
+        "feature": "00",
+        "weight": -0.2266
+      },
+      {
+        "feature": "team",
+        "weight": -0.2202
+      },
+      {
+        "feature": "in",
+        "weight": -0.2195
+      },
+      {
+        "feature": "please",
+        "weight": -0.2143
+      },
+      {
+        "feature": "attached",
+        "weight": -0.2109
+      },
+      {
+        "feature": "on",
+        "weight": -0.2075
+      },
+      {
+        "feature": "minutes",
+        "weight": -0.1953
+      },
+      {
+        "feature": "confirmed",
+        "weight": -0.1853
+      },
+      {
+        "feature": "receipt",
+        "weight": -0.1838
+      },
+      {
+        "feature": "thanks",
+        "weight": -0.1768
+      }
+    ]
+  },
+  "model_files": [
+    "phishing_text_model.joblib",
+    "phishing_model.joblib"
+  ],
+  "status": "TRAINED_AND_EVALUATED"
+}
