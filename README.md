@@ -83,7 +83,7 @@ npm --prefix frontend install
 
 On macOS/Linux, activate the environment with `source .venv/bin/activate`.
 
-For a custom frontend API URL, copy `.env.example` to `frontend/.env.local` and set `VITE_API_URL`. Set `AI_API_KEY`, `AI_MODEL`, and `AI_BASE_URL` in the backend process environment if you want to enable external AI analysis.
+The Render frontend build must use `VITE_API_URL=https://cyberguard-backend-wt0p.onrender.com` (see [frontend/.env.example](frontend/.env.example)). Vite embeds this variable during the build, so redeploy the frontend after changing it. For local development, leave `VITE_API_URL` unset to use the `http://127.0.0.1:8000` fallback, or set it in `frontend/.env.local`. Set `AI_API_KEY`, `AI_MODEL`, and `AI_BASE_URL` in the backend process environment if you want to enable external AI analysis.
 
 ## 11. Run the backend
 
